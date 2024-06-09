@@ -51,7 +51,7 @@ export const ElementPixelated = ({
       img.crossOrigin = "anonymous"
 
       const canvas = canvasRef.current
-      const ctx = canvas.getContext("2d")
+      const ctx = canvas.getContext("2d", { willReadFrequently: true })
       img.width = img.width
       img.height = img.height
       canvas.width = img.width
