@@ -21,7 +21,7 @@
   "author": "Tony Nguyen tonynguyenit18@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freshdots/react-pixelate"
+    "url": "git+https://github.com/freshdots/react-pixelate.git"
   },
   "homepage": "https://github.com/freshdots/react-pixelate#readme",
   "bugs": {
